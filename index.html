@@ -37,7 +37,7 @@
                  </div>
                 
                  <div class="input-field">
-                    <input type="submit" oneclick="login()" class="input-submit" value="Sign In" required>
+                    <input type="submit"  class="input-submit" value="Sign In" required>
                  </div>
                  <div class="forgot">
                     <a href="#">Forgot password?</a>
@@ -148,10 +148,22 @@
          }
 
         }
+
+         function func(){
+         var email = document.getE1ementById("emailaddress").value;
+         var pass = document.getE1ementById("password").value;
+          if (email == "#" && pass == "#"){
+              alert("success full! ")
+              window.location.assign("https://sites.google.com/view/fcorigins/home")
+          }   
+         
+         
+         }
      </script>
 </body>
 
 </html>
+
 
 
 
